@@ -1,0 +1,9 @@
+ISABELLA AI - EDICIÓN VOZ
+1. Instala Node.js 18 o superior.
+2. Abre una terminal dentro de esta carpeta.
+3. Windows PowerShell: $env:OPENAI_API_KEY="TU_CLAVE"; node server.js
+   Windows CMD: set OPENAI_API_KEY=TU_CLAVE && node server.js
+4. Abre http://localhost:3000 en Chrome o Edge.
+5. Permite el micrófono, elige la voz española que más te guste y toca la esfera.
+
+La IA real requiere una clave de API y puede generar costos. No coloques la clave en index.html ni publiques el servidor sin autenticación y controles de uso. La voz depende de las voces instaladas en el sistema: para voces de calidad superior se necesita un proveedor TTS externo. Las funciones de llamadas y calendario no están implementadas en esta edición.
